@@ -396,6 +396,6 @@
 
 <div id="toast" class="fixed right-4 top-20 z-[60] hidden rounded-xl bg-on-surface text-white text-sm px-4 py-2 shadow-lg"></div>
 
-<script src="{{ asset('js/tugasku.js') }}"></script>
+<script defer src="/js/tugasku.js"></script>
 </body>
 </html>
