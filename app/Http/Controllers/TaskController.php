@@ -8,8 +8,7 @@ use Illuminate\Http\Request;
 class TaskController extends Controller
 {
     public function index()
-    {
-        // Ambil semua task, urutkan: belum selesai dulu, lalu terbaru
+    {        
         $tasks = Task::orderBy('status')
                      ->orderBy('created_at', 'desc')
                      ->get();
