@@ -99,7 +99,7 @@
                             </div>
                             <span class="font-bold text-primary">{{ number_format($progress, 0) }}%</span>
                         </div>
-                        <p class="text-sm text-gray-700">You're doing wonderful! Just {{ 2 - $completedCount }} more tasks to complete your garden for today.</p>
+                        <p class="text-sm text-gray-700">You're doing wonderful! Just {{ $total - $completed }} more tasks to complete your garden for today.</p>
                     </div>
                     
                     <div class="bg-yellow-50 p-6 rounded-3xl border-2 border-dashed border-yellow-300">
